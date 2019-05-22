@@ -10,14 +10,14 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "./node_modules/.bin/cross-env CI=true react-scripts test --env=jsdom --noStackTrace || true",
-    "test:module1": "./node_modules/.bin/cross-env CI=true react-scripts test --env=jsdom --noStackTrace module1 || true",
-    "test:module2": "./node_modules/.bin/cross-env CI=true react-scripts test --env=jsdom --noStackTrace module2 || true",
-    "test:module3": "./node_modules/.bin/cross-env CI=true react-scripts test --env=jsdom --noStackTrace module3 || true",
-    "test:module4": "./node_modules/.bin/cross-env CI=true react-scripts test --env=jsdom --noStackTrace module4 || true",
-    "test:module5": "./node_modules/.bin/cross-env CI=true react-scripts test --env=jsdom --noStackTrace module5 || true",
-    "test:module6": "./node_modules/.bin/cross-env CI=true react-scripts test --env=jsdom --noStackTrace module6 || true",
-    "test:module7": "./node_modules/.bin/cross-env CI=true react-scripts test --env=jsdom --noStackTrace module7 || true",
+    "test": "cross-env CI=true react-scripts test --env=jsdom --noStackTrace || true",
+    "test:module1": "cross-env CI=true react-scripts test --env=jsdom --noStackTrace module1 || true",
+    "test:module2": "cross-env CI=true react-scripts test --env=jsdom --noStackTrace module2 || true",
+    "test:module3": "cross-env CI=true react-scripts test --env=jsdom --noStackTrace module3 || true",
+    "test:module4": "cross-env CI=true react-scripts test --env=jsdom --noStackTrace module4 || true",
+    "test:module5": "cross-env CI=true react-scripts test --env=jsdom --noStackTrace module5 || true",
+    "test:module6": "cross-env CI=true react-scripts test --env=jsdom --noStackTrace module6 || true",
+    "test:module7": "cross-env CI=true react-scripts test --env=jsdom --noStackTrace module7 || true",
     "eject": "react-scripts eject"
   },
   "jest": {
@@ -48,5 +48,17 @@
     "esprima": "4.0.0",
     "react-test-renderer": "16.3.1",
     "sinon": "5.0.1"
-  }
+  },
+  "description": "This repo contains the code for the Pluralsight Project \"Build a Quiz Component with React,\" located here: https://app.pluralsight.com/projects/build-a-quiz-component-with-react/",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OneBadApple/React-QuizComponent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OneBadApple/React-QuizComponent/issues"
+  },
+  "homepage": "https://github.com/OneBadApple/React-QuizComponent#readme"
 }
